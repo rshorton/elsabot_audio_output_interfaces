@@ -19,8 +19,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/CancelAudio.srv"
   "srv/PlayTTS.srv"
   "srv/CancelTTS.srv"
-  "srv/Pause.srv"
-  "srv/Resume.srv"
+  "srv/PauseAudio.srv"
+  "srv/ResumeAudio.srv"
 )
 
 if(BUILD_TESTING)
